@@ -1,0 +1,12 @@
+body p {
+	font-size: 24px;
+}
+.h1-red{
+	color: red;
+}
+.p-blue-block{
+	background-color: blue;
+	width: 150px;
+	padding: 5px;
+	color:#fff
+}
