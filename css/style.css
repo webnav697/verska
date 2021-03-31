@@ -1,7 +1,19 @@
-body p {
+html{
+	padding: 0;
+	margin: 0;
+}
+body {
 	font-size: 24px;
 }
-.h1-red{
+
+input {
+	font-size: 24px;
+}
+p,ul,li,span,h1,h2,h3,h4,h5,h6,div,table,td,tr,b,ol,dd,dt,a{
+	box-sizing:border-box;
+}
+
+.red{
 	color: red;
 }
 .p-blue-block{
@@ -9,4 +21,26 @@ body p {
 	width: 150px;
 	padding: 5px;
 	color:#fff
+}
+.bg-blue{
+	background-color:blue;
+}
+.bg-green {
+	background-color: green;
+}
+.color-white {
+	color:white;
+}
+.h2-padd-5{
+	padding: 5px;
+}
+.h2-padd-40{
+	padding: 40px;
+}
+.marg-left{
+	margin-left: 40px;
+}
+.list-block li{
+	border: 1px solid #000;
+	font-size: 36px;
 }
