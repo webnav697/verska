@@ -67,7 +67,7 @@ a.btn{
 #header .wraper{
 	display: flex;
 	flex-wrap: nowrap;
-	items:center;
+	align-items:center;
 }
 
 /* container-list-items  */
