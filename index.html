@@ -16,20 +16,21 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
 		rel="stylesheet">
-
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
+
 	<header id="header">
 		<div class="container">
-			<div class="logo">
+			<div class="logo fadeIn wow" >
 				<a href="/">
 					<img src="img/logo-top.png" alt="Логотип компании">
 				</a>
 			</div>
 
 			<div class="wraper">
-				<div class="left">
+				<div class="left fadeInLeft wow" data-wow-duration="2s" >
 					<h1>С помощью верстки я создам ту жизнь, о которой <span class="fz-59">мечтаю!</span></h1>
 					<div class="txt">
 						<p>Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%.
@@ -38,7 +39,7 @@
 					</div>
 					<a class="btn" href="">Двигаться к мечте!</a>
 				</div>
-				<div class="right">
+				<div class="right fadeInRight wow"  data-wow-duration="2s" data-wow-offset="100">
 					<img src="img/img-header.png" alt="">
 				</div>
 			</div>
@@ -48,20 +49,20 @@
 	<main>
 		<section>
 			<div class="container container-list-items">
-				<h2 class="title-all-items">Что меня ждет впереди</h2>
+				<h2 class="title-all-items  fadeIn wow" data-wow-duration="2s" data-wow-offset="100">Что меня ждет впереди</h2>
 				<div class="wraper">
 					<div class="list-items">
-						<div class="item">
+						<div class="item fadeInLeft wow"  data-wow-duration="2s" data-wow-offset="100">
 							<img src="img/icons1.png" alt="">
 							<h3 class="title">Свободное время</h3>
 							<p class="txt-item">Мне нужно свободное время на семью и самое настоящее</p>
 						</div>
-						<div class="item">
+						<div class="item fadeInUp wow" data-wow-duration="2s" data-wow-offset="100" >
 							<img src="img/icons2.png" alt="">
 							<h3 class="title">Яркие путешествия</h3>
 							<p class="txt-item">Работать откуда угодно - что может быть лучше?</p>
 						</div>
-						<div class="item">
+						<div class="item fadeInRight wow"  data-wow-duration="2s" data-wow-offset="100">
 							<img src="img/icons3.png" alt="">
 							<h3 class="title-item">Создание ценности</h3>
 							<p class="txt-item">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
@@ -72,8 +73,10 @@
 		</section>
 		<section class="bg-gray">
 			<div class="container container-form">
-				<h2 class="title-all-items">Форма заказа билета в будущее</h2>
-				<form class="form" action="">
+				<h2 class="title-all-items fadeIn wow" data-wow-duration="2s" data-wow-offset="100">
+				Форма заказа билета в будущее
+				</h2>
+				<form class="form fadeInLeft wow"  data-wow-duration="2s" data-wow-offset="150" action="">
 					<input class="inp" type="text" placeholder="Имя" name="name" required>
 					<input class="inp" type="email" placeholder="E-mail" name="email" required>
 					<input class="inp" type="tel" placeholder="Телефон" name="phone" required>
@@ -84,10 +87,11 @@
 		</section>
 	</main>
 	<footer id="footer">
-		<div class="container">
+		<div class="container fadeInRight wow"  data-wow-duration="1s" data-wow-offset="50">
 			<p class="copyright">© Все мои мечты защищены моим трудолюбием</p>
 		</div>
 	</footer>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
 </body>
-
 </html>

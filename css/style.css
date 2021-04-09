@@ -1,3 +1,6 @@
+body{
+	overflow-x: hidden;
+}
 #header{
 /*	min-height: 824px;*/
 	padding-top: 60px;
